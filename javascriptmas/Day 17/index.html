@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascriptmas - Day 17</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <h1>🎅 Naughty List, Nice List 🎁</h1>
+        <div class="container">
+            <div>
+                <h2>Nice List</h2>
+                <ul class="list nice-list" id="nice-list"></ul>
+            </div>
+            <div>
+                <h2>Naughty List</h2>
+                <ul class="list naughty-list" id="naughty-list"></ul>
+            </div>
+        </div>
+        <button id="btn" type="button">Sort</button>
+
+        <form>
+            <label for="person"></label>
+            <input id="input" type="text" id="person" name="person" placeholder="Add a name">
+            <select id="attitude">
+                <option value="false">Naughty</option>
+                <option value="true">Nice</option>
+            </select>
+            <button id="btnPerson" type="button">Add a Name</button>           
+        </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

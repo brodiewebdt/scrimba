@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascriptmas - Day 22</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <h1>Christmas Stress Buster 🧸</h1>
+        <div class="container">
+            <p class="affirmation" id="affirmation">Take a moment to yourself...</p>
+            <p id="timer" class="timer">15:00</p>
+            <button id="btn">Bust stress</button>            
+        </div>
+        <div class="container audio-controls">
+            <div class="btn-container">
+                <button class="play-btn" id="play-btn">
+                    <span class="material-icons-outlined">play</span></button>
+                <button class="pause-btn" id="pause-btn">
+                    <span class="material-icons-outlined">pause</span>
+                </button>                 
+                </button>
+                <button class="stop-btn" id="stop-btn">
+                    <span class="material-icons-outlined">stop</span></button>                
+                </button>
+            </div>
+            <div class="slide-container">
+                <label for="range">Volume</label>
+                <input type="range" min="1" max="100" value="50" class="volume-control" id="volume-control">
+            </div>        
+        </div> 
+
+    <script src="js/script.js"></script>
+</body>
+</html>

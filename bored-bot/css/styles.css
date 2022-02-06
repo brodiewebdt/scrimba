@@ -1,0 +1,51 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.container {
+background: linear-gradient(180deg, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 2rem auto;
+    padding: 2rem 0;
+    width: 50%;
+
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+p {
+    margin: 2rem 0;
+}
+
+button {
+    background-color: #a73737;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding:.5rem 2rem;
+}
+
+.fun {  
+    background: linear-gradient(180deg, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

@@ -1,0 +1,77 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #d2d2d2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+p {
+    margin: 0.5rem 0 1.5rem;
+}
+
+.input-info {
+    margin-bottom: 0;
+}
+
+.card {
+    margin: 5rem auto;
+    max-width: 550px;
+}
+
+.card-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1051b8;
+    padding-block: 3rem;
+}
+
+.card-body {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    background-color: #18244a;
+    padding-block: 2rem;
+}
+
+#unit-input-value {
+    color: #fff;
+    background-color: transparent;
+    border: .25px solid rgba(255, 255, 255, 0.4);
+    font-size: 4rem;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+
+#unit-input-value::placeholder {
+    color: #fff;
+    font-size: 4rem;
+}

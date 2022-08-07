@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Basketball Scoreboard Solo Project</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <main>
+            <h1>Basketball Scoreboard Solo Project</h1>
+            <div class="container">
+                <div class="scoreboard score-one">
+                    <h2>HOME</h2>
+                    <div class="home-score home-el"><span>0</span></div>
+                    <!-- /.score -->
+                    <ul class="home">
+                        <li><button class="btn-point" value="1">+1</button></li>
+                        <li><button class="btn-point" value="2">+2</button></li>
+                        <li><button class="btn-point" value="3">+3</button></li>
+                    </ul>
+                </div>
+                <!-- /.home -->
+                <div class="scoreboard score-two">
+                    <h2>GUEST</h2>
+                    <div class="guest-score guest-el"><span>0</span></div>
+                    <!-- /.score -->
+                    <ul class="guest">
+                        <li><button class="btn-point" value="1">+1</button></li>
+                        <li><button class="btn-point" value="2">+2</button></li>
+                        <li><button class="btn-point" value="3">+3</button></li>
+                    </ul>
+                </div>
+                <!-- /.guest -->
+
+                <button class="btn-reset">Reset Game</button>
+            </div>
+            <!-- /.container -->
+        </main>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

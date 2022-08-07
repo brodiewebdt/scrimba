@@ -1,0 +1,96 @@
+:root {
+    --color-primary: #4adf86;
+    --color-primary-dark: #10b981;
+    --color-light: #ecfdf5;
+    --color-dark: #273549;
+    --color-gray: #6b7280;
+    --color-white: #ffffff;
+    --color-black: #1c1c1c;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: var(--color-black);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+.card {
+    background-color: var(--color-light);
+    width: 550px;
+    margin: 0 auto;
+    padding: 7rem 3rem;
+}
+
+.card-body {
+    border-bottom: 1px solid var(--color-gray);
+    margin-bottom: 2rem;
+}
+
+.card-footer {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1.5rem;
+}
+
+.card-footer > * {
+    /* width: 100%; */
+}
+
+h1.card-title {
+    color: var(--color-black);
+    font-family: "Karla", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -5%;
+    line-height: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+span {
+    color: var(--color-primary);
+}
+
+p.subtitle {
+    color: var(--color-gray);
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+button {
+    background-color: var(--color-primary-dark);
+    border: none;
+    border-radius: 6px;
+    color: var(--color-white);
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-copy {
+    padding: 0.5rem;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark);
+    border-radius: 6px;
+    color: var(--color-primary);
+    font-weight: 500;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+    width: 100%;
+    /* height: 40px; */
+}

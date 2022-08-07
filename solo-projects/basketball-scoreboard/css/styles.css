@@ -1,0 +1,97 @@
+@font-face {
+    font-family: cursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+main {
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+    background-color: #1b244a;
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 4rem 0;
+}
+
+/************ Typography *************/
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #080001;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+/************ Button Styles *************/
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+.btn-point {
+    background-color: transparent;
+    border: 1px solid #7a88b4;
+    color: #7a88b4;
+    margin: 0 1px;
+    padding: 0.5rem;
+}
+
+.btn-reset {
+    grid-column: span 2;
+    background-color: #f94f6d;
+    border: none;
+    color: #fff;
+    margin-top: 2.5rem;
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+}
+
+.home-score,
+.guest-score {
+    display: flex;
+    justify-content: center;
+    background-color: #080001;
+    color: #f94f6d;
+    font-family: cursedTimer;
+    font-size: 5.625rem;
+    margin: 1.25rem auto;
+    width: 100%;
+}
+
+span {
+    padding-top: 1rem;
+}
+
+.outline {
+    outline: 2px solid #f94f6d;
+}

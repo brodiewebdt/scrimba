@@ -1,6 +1,6 @@
 let deckId;
 let cards = [];
-// document.querySelector(".draw-cards").style.display = 'none';
+document.querySelector(".draw-cards").style.display = "none";
 const cardContainer = document.querySelector(".cards");
 const gameTitle = document.querySelector(".game-title");
 const newDeckBtn = document.querySelector(".new-deck");
